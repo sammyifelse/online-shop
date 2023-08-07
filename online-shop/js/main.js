@@ -1,10 +1,6 @@
+const navIcon = document.querySelector('.hum-icon');navIcon.addEventListener('click', showNav);
 
-
-const numbers = ["1 2 3 4 5"]
-
-  const min = 1
-  const max = 4
- String(max) + " " + String(min)
-
-
-console.log(String(max) + " " + String(min))
+function showNav(){
+  const navList = document.querySelector('.nav-list');
+  navList.classList.toggle('hidden')
+}
