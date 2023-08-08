@@ -4,7 +4,7 @@
 
 /* Box Model Hack */
 * {
-  padding: 0;
+  padding: initial;
   margin: 0;
   box-sizing: border-box;
 }
@@ -86,6 +86,7 @@ a{
 .sign-up-btn{
   background: black;
   display: inline-block;
+  text-align: center;
 }
 
 .nav-list a{
@@ -95,8 +96,8 @@ a{
 .close {
   background-color: black;
   border: none;
-  color: grey;
-  font-size: 4rem;
+  color: white;
+  font-size: 3rem;
   font-weight: 700;
   border-radius: 1rem;
   padding-inline: 1rem;
